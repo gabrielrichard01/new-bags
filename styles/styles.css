@@ -112,15 +112,83 @@ to {
 
 #home{
     background-image: linear-gradient(to right, #fff7ad, #ffa9f9);
+    height: 100vh;
+}
+
+.home-link{
+    padding-top: 28vh;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.home-link img{
+    width: 40px;
+    margin: 0 auto;
+    display: flex;
+    transition: transform .3s;
+}
+
+.home-link img:hover{
+    transform: scale(1.2);
 }
 
 .home-images{
     width: 100%;
-    padding-top: 80px;
 }
 
 .home-images img{
     width: 100%;
     margin: 0 auto;
     display: flex;
+}
+
+#sobre{
+    background-image: url(../images/fundos/sobre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.sobre-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 80px;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.sobre-title h2{
+    background-color: #fffbf5;
+    box-shadow: 5px 5px 1px black;
+    color: #ffb603;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.sobre-descricao{
+    background-color: #fffbf5;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 3px;
+    width: 50%;
+    height: 147px;
+    margin: 0 auto;
+}
+
+.sobre-descricao p{
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.sobre-images{
+    margin: 0 auto;
 }
